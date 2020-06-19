@@ -80,15 +80,15 @@ public class BackendApplication implements CommandLineRunner {
         restConfiguration.exposeIdsFor(EtudiantSession.class);
         restConfiguration.exposeIdsFor(Attestation_scolarite.class);
 
-//        preLoadEtudiants();
-//        preloadEleemnts();
-//        preloadDiplomes();
-//        preloadFiliere1();
-//        preloadFiliere2();
-//        preloadSession();
-//
-//        System.out.println("Date :"+Calendar.getInstance().get(Calendar.YEAR));
-//        initAttestations(2020);
+       preLoadEtudiants();
+       preloadEleemnts();
+       preloadDiplomes();
+       preloadFiliere1();
+       preloadFiliere2();
+       preloadSession();
+
+       System.out.println("Date :"+Calendar.getInstance().get(Calendar.YEAR));
+       initAttestations(2020);
 
     }
 

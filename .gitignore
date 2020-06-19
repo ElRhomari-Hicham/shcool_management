@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 git commit -m "first commit"HELP.md
+=======
+HELP.md
+>>>>>>> 9eaec37ee7c9d20fe99747e5e0671b3f7128f3df
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
